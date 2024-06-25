@@ -1,0 +1,249 @@
+{
+	"info": {
+		"_postman_id": "6cf929ba-3c37-4c4d-abda-5f365beaba1f",
+		"name": "Assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32780611"
+	},
+	"item": [
+		{
+			"name": "Save Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/saveData",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"saveData"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Distinct Actions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/get/actions",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"get",
+						"actions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Action Occurrences",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/get/action/occurrences?time=08:51:01&date=03/22/2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"get",
+						"action",
+						"occurrences"
+					],
+					"query": [
+						{
+							"key": "time",
+							"value": "08:51:01"
+						},
+						{
+							"key": "date",
+							"value": "03/22/2024"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Logs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/get/all/logs?time=08:51:01&date=03/22/2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"get",
+						"all",
+						"logs"
+					],
+					"query": [
+						{
+							"key": "time",
+							"value": "08:51:01"
+						},
+						{
+							"key": "date",
+							"value": "03/22/2024"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Action Min-Max values",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/get/action/minMax?time=08:51:01&date=03/22/2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"get",
+						"action",
+						"minMax"
+					],
+					"query": [
+						{
+							"key": "time",
+							"value": "08:51:01"
+						},
+						{
+							"key": "date",
+							"value": "03/22/2024"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Mailbox Data",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/get/mail/data",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"get",
+						"mail",
+						"data"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Timer4 Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/get/timer4/status?startTime=08:52:52&endTime=08:53:22&startDate=03/22/2024&endDate=03/22/2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"get",
+						"timer4",
+						"status"
+					],
+					"query": [
+						{
+							"key": "startTime",
+							"value": "08:52:52"
+						},
+						{
+							"key": "endTime",
+							"value": "08:53:22"
+						},
+						{
+							"key": "startDate",
+							"value": "03/22/2024"
+						},
+						{
+							"key": "endDate",
+							"value": "03/22/2024"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Timer1 Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/get/timer1/status?startTime=08:51:01&endTime=08:53:52&startDate=03/22/2024&endDate=03/22/2024",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"get",
+						"timer1",
+						"status"
+					],
+					"query": [
+						{
+							"key": "startTime",
+							"value": "08:51:01"
+						},
+						{
+							"key": "endTime",
+							"value": "08:53:52"
+						},
+						{
+							"key": "startDate",
+							"value": "03/22/2024"
+						},
+						{
+							"key": "endDate",
+							"value": "03/22/2024"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
